@@ -15,22 +15,11 @@ params:
     Title: ぬっちのぽえむ
     Content: 色々やったことの備忘録。ポエムはたぶん書きません。
 
-      # socialIcons:
-      #   - name: GitHub
-      #     url: "https://github.com/tsuoihito"
-      #   - name: Twitter
-      #     url: "https://twitter.com/tsuoihito"
-
-      # editPost:
-      #   URL: "https://github.com/tsuoihito/tsuoihito.github.io/content"
-      #   Text: "Suggest Changes"
-      #   appendFilePath: true
-
 menu:
   main:
-    - identifier: post
-      name: Post
-      url: /post/
+    - identifier: posts
+      name: Posts
+      url: /posts/
       weight: 1
     - identifier: tags
       name: Tags
