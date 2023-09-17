@@ -7,7 +7,6 @@ enableRobotsTXT: true
 params:
   description: 色々やったことの備忘録。ポエムはたぶん書きません。
   keywords: [ blog ]
-  ShowReadingTime: true
   ShowRssButtonInSectionTermList: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
