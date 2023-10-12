@@ -7,21 +7,38 @@ enableRobotsTXT: true
 params:
   description: 色々やったことの備忘録。ポエムはたぶん書きません。
   keywords: [ blog ]
-  ShowRssButtonInSectionTermList: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
-
+  ShowToc: true
+  defaultTheme: auto
+  disableThemeToggle: true
   homeInfoParams:
     Title: 君の牛丼を食べたい
     Content: 色々やったことの備忘録。ポエムはたぶん書きません。
+  assets:
+    disableHLJS: true
+  mainSections:
+    - archives
 
 menu:
   main:
-    - identifier: posts
-      name: Posts
-      url: /posts/
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 1
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 2
+
+outputs:
+ home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    style: nord
